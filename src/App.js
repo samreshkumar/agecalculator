@@ -36,7 +36,7 @@ function App() {
         const Difference_In_yearnn = (date2.getFullYear() - date1.getFullYear()) - 1;
         const Difference_In_monthsn = 12 + (date2.getMonth() - date1.getMonth());
         if(Difference_In_day < -1){
-          alert()
+          //alert()
           const Difference_In_monthsn2 = Difference_In_monthsn - 1
           const Difference_In_dayn =  Difference_In_day + 30
           SetresultMonthDiff(Difference_In_monthsn2)
